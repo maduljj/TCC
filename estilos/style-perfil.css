@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+PALETA:
+    VERDE - 568259
+    ROXO - C04CFD
+    ROSA CLARO - FC6DAB
+    CREME - F7F6C5
+    CREME MAIS CLARO - F3FAE1
+*/
+
+* {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.botao {
+    display: none;
+}
+
+.nav-list {
+    background-color: #c09fd1;
+    padding: 20px;
+    
+    text-decoration: none;
+}
+
+.nav-list ol{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+
+#botao-menu {
+    display: none;
+}
+
+.material-symbols-outlined {
+    display: none;
+    color: white;
+}
+
+#row {
+    background-color: #7a4796;
+    height: 3px;
+}
+
+.nav-list a:hover {
+    color: #520032;
+}
+
+/**/
+.abusador {   
+    font-family: "Poppins", sans-serif;
+}
+
+.abusador-father {                    /* div pai ------- */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+
+.title-nav {                        /* titulo geral ------- */
+    font-size: 40px;
+}
+
+.nav-child-abu {                          /* div filho ------- */
+    text-align: justify;
+}
+
+.nav-child-abu > p{                          /* paragrafo div fio  ------- */
+    font-size: 20px;
+}
+
+.a-abusador {                          /* titulo o que é ------- */
+    color: #293676;
+    text-align: center;
+}
+
+/* VIOLENCIAS -- */
+
+.title-sec {                     
+    text-align: left;
+    font-size: 35px;
+}
+
+.h1-sec {                          
+    color: #33459e;
+}
+
+.intra {   
+    font-family: "Poppins", sans-serif;
+}
+
+.intra-father {                    /* div pai ------- */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+
+.nav-child-int {                          /* div filho ------- */
+    text-align: justify;
+}
+
+.nav-child-int > p {                          /* paragrafo div fio  ------- */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.list-int {
+    font-size: 20px;
+    background-color: #a5aedc90;
+    padding : 20px;
+}
+
+.list-int > ol {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-style: italic;
+    
+}
+
+/* INDICADORES FISICOS  -- */
+
+.title-sec {                     
+    text-align: left;
+    font-size: 35px;
+}
+
+.extra {   
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 40px;
+}
+
+.extra-father {                    /* div pai ------- */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+
+.nav-child-ext {                          /* div filho ------- */
+    text-align: justify;
+}
+
+.nav-child-ext > p {                          /* paragrafo div fio  ------- */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.list-ext {
+    font-size: 20px;
+    background-color: #697de3b8;
+    padding: 20px;
+    
+}
+
+.list-ext > ol {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-style: italic;
+    list-style: decimal;
+}
+
+
+
+/* footer  -- */
+
+footer {
+    padding: 10px;
+    background-color: #c09fd1;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+
+footer strong {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#row-two{
+    background-color: #7a4796;
+    height: 3px;
+}
+
+@media screen and (max-width: 500px) {
+
+/* CABECALHO */
+
+.botao {
+    background-color: #c09fd1;
+    padding: 15px;
+    display: block;
+}
+
+#botao-menu {
+    display: block;
+    background-color: #c09fd1;  
+    width: 30px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+header {
+    padding: 0px;
+}
+
+.nav-list {
+    display: none;
+    background-color: #7a4796;
+}
+
+.nav-list ol{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#row {
+    background-color: #462856;
+    height: 3px;
+}
+
+
+
+/* ABUSADOR ---------------------------------- */
+.abusador {   
+    font-family: "Poppins", sans-serif;
+}
+
+.abusador-father {                    /* div pai ------- */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.title-nav {                        /* titulo geral ------- */
+    font-size: 30px;
+}
+
+.nav-child-abu {                          /* div filho ------- */
+    text-align: justify;
+}
+
+.nav-child-abu > p{                          /* paragrafo div fio  ------- */
+    font-size: 16px;
+}
+
+.a-abusador {                          /* titulo o que é ------- */
+    color: #293676;
+    text-align: center;
+}
+
+/* VIOLENCIAS -- */
+
+.title-sec {                     
+    text-align: left;
+    font-size: 25px;
+}
+
+.h1-sec {                          
+    color: #33459e;
+}
+
+.intra {   
+    font-family: "Poppins", sans-serif;
+}
+
+.intra-father {                    /* div pai ------- */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-child-int {                          /* div filho ------- */
+    text-align: justify;
+}
+
+.nav-child-int > p {                          /* paragrafo div fio  ------- */
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.list-int {
+    font-size: 15px;
+    background-color: #a5aedc90;
+    padding : 20px;
+}
+
+.list-int > ol {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-style: italic;
+}
+
+/* INDICADORES FISICOS  -- */
+
+.extra {   
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 40px;
+}
+
+.extra-father {                    /* div pai ------- */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-child-ext {                          /* div filho ------- */
+    text-align: justify;
+}
+
+.nav-child-ext > p {                          /* paragrafo div fio  ------- */
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.list-ext {
+    font-size: 15px;
+    background-color: #697de3b8;
+    padding: 20px;
+    
+}
+
+.list-ext > ol {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-style: italic;
+    list-style: decimal;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: #c09fd1;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+    
+footer strong {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+}
+}
